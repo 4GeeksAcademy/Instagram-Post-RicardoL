@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    
+}
+.post {
+    width: 60%;
+    background-color: white;
+}
+.post-header {
+    display:flex
+}
+.fa-bookmark{
+    float:right
+}
+.profile-pic{
+    float:left
+}
+.options-icon{
+    float:right
+}
