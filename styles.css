@@ -1,20 +1,33 @@
 body {
     background-color: black;
-    
+    padding-top: 50px;
 }
+
 .post {
+    margin:auto;
     width: 60%;
     background-color: white;
+    vertical-align: middle;
 }
 .post-header {
-    display:flex
+    padding: 5px;
+    display:flex;
+    font-size: 10;
+}
+.fa-html5{
+    padding-right: 10px;
+}
+.profile-name{
+    width: 90%;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.post-body {
+    padding: 5px;
 }
 .fa-bookmark{
-    float:right
-}
-.profile-pic{
-    float:left
-}
-.options-icon{
-    float:right
+    float:right;
 }
